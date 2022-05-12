@@ -414,7 +414,7 @@ footer {
 	
 	.container {
     grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: 74px 537px 1257px 170px 308px 660px 279px 177px;
+	grid-template-rows: 74px 537px 1257px 170px 308px 660px 343px 177px;
 	}
   
 	.slidebox{
@@ -440,6 +440,11 @@ footer {
 
 	}
 	
+	#content1{
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+	
 	#content2 {
 		grid-column-start: 1;
 		grid-column-end: 5;
@@ -447,8 +452,8 @@ footer {
 		justify-self: center;
 		text-align:center;
 		
-		margin-right: 8%;
-		margin-left: 8%;
+		margin-right: 7%;
+		margin-left: 7%;
 	}
 
 	#content3 {
@@ -474,7 +479,7 @@ footer {
 	}
 
 	#content5 {
-
+		margin-top: 64px;
 	}
 
 	.footer1{
