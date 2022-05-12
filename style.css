@@ -77,6 +77,9 @@ header {
 	grid-column-start: 1;
 	grid-column-end: 13;
 	
+	position: sticky;
+	top: 0;
+	
 	z-index:10;
 }
 
@@ -176,7 +179,7 @@ li{
 		border-top: solid 1px;
 		border-top-color: #8c3b3b;
 		
-		box-shadow: 0 5px 2px -2px rgba(0, 0, 0, 0.5);
+		box-shadow: 0 5px 2px -2px rgba(0, 0, 0, 0.3);
 	}
 	
 	.nav-item{
